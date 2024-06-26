@@ -5,6 +5,9 @@
   "main": "simple_calculator.js",
   "type": "module",
   "bin": "simple_calculator.js" ,
+  "publishConfig": {
+    "access": "public"
+  },
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
